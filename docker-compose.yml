@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  web_api:
+    build: ./back
+    container_name: api_deposit
+    command: "python back/app.py"
+    volumes:
+      - .:/app
+    ports:
+      - '8000:8000'
