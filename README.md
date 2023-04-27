@@ -43,28 +43,22 @@
 1. Склонировать репозиторий
 
 ```python
-git clone 
+git clone https://github.com/radik121/deposit_calculate.git
 ```
 
 2. Перейти в деркторию с проектом
 
 ```python
-cd fastapi_menu
+cd deposit_calculate
 ```
 
-3. Переименовать файл .env_dev на .env (тестовые переменные окружения)
-
-```
-mv .env_dev .env
-```
-
-4. Запустить web-приложение в контейнере Docker
+3. Запустить web-приложение в контейнере Docker
 
 ```python
 docker-compose up -d
 ```
 
-5. Запустить тесты для api-запросов
+4. Запустить тесты для api-запросов
 
 ```python
 docker-compose -f docker-compose.test.yml up
