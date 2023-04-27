@@ -63,5 +63,5 @@ docker-compose up -d
 ```python
 docker-compose -f docker-compose.test.yml up
 ```
-
+ #### post запрос отправляется на адрес: http://0.0.0.0:8000/api/v1/calculation
  #### Документация OpenAPI: http://0.0.0.0:8000/api/v1/docs
